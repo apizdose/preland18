@@ -4,11 +4,11 @@ function randomInteger(min, max) {
 }
 
 function lnk(){
-	setTimeout(() => window.location.href = "https://track.tracklyfast.com/click?pid=13354&offer_id=252", 2000);
+	setTimeout(() => window.location.href = "https://track.tracklyfast.com/click?pid=13354&offer_id=239", 2000);
 }
 
 function gotolink(){
-	window.location.href = "https://track.tracklyfast.com/click?pid=13354&offer_id=252"
+	window.location.href = "https://track.tracklyfast.com/click?pid=13354&offer_id=239"
 }
 
 function langEn () {
