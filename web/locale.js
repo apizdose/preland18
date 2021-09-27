@@ -4,11 +4,11 @@ function randomInteger(min, max) {
 }
 
 function lnk(){
-	setTimeout(() => window.location.href = "https://track2.perfectjourney.club/click?pid=13354&offer_id=128&l=1578671189", 2000);
+	setTimeout(() => window.location.href = "https://track.tracklyfast.com/click?pid=13354&offer_id=239", 2000);
 }
 
 function gotolink(){
-	window.location.href = "https://imlive.com/wmaster2.ashx?wid=126591197595&linkid=701&promocode=2dc77h9a0myxo6ob33_13354&impid=89fc30a9-3321-4487-a327-08c1f4e3b7fd&perimpid=d8d2375a-ae30-4cfd-9ee4-395a96c31431&gotopage=%2Flive-sex-chats%2Fcam-girls%2Fgallery%2F%3Flv%3D1&func=signup"
+	window.location.href = "https://track.tracklyfast.com/click?pid=13354&offer_id=239"
 }
 
 function langEn () {
@@ -155,6 +155,6 @@ function langFr () {
 };
 
 function startpage () {
-	window.location.href = "https://over18.do.am/"
+	window.location.href = "https://over18.ml/"
 }
 
