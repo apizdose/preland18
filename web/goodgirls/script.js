@@ -15,7 +15,7 @@ var timetStop = document.getElementById('cnt');
 var loadStop = document.getElementById('loadng');
 timetStop.innerHTML = "100";
 window.setTimeout(function(){
-    timetStop.innerHTML = " "; loadStop.innerHTML = " "; percentStop.innerHTML = "<span class = 'step-item visible' >If not loaded, <a href='https://track.tracklyfast.com/click?pid=13354&offer_id=239'>click here</a></span>";
+    timetStop.innerHTML = " "; loadStop.innerHTML = " "; percentStop.innerHTML = "<span class = 'step-item visible' >If not loaded, <a href='https://track.tracklyfast.com/click?pid=13354&offer_id=239&l=1610728094'>click here</a></span>";
   },2000);
 }
 
