@@ -8,6 +8,12 @@
    article, aside, details, figcaption, figure, footer,header,
    hgroup, menu, nav, section { display: block; }
    body {background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 	font-family: "Brush Script MT", "Brush Script MT", Cursive;
 	color: #2F4F4F;
 	}
@@ -68,7 +74,7 @@ let outtags = shuffle(tags)
 
 document.write('<center>Hashtags of a day:<br><br>')
 for (let i = 0; i < 9; i++) { 
-  document.write('<center>'+outtags[i] + ' <br>');
+  document.write(outtags[i] + ' <br>');
 }
 
 </script>
