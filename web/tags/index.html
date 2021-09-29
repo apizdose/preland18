@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Hashtags generator</title>
+
+  <style>
+   article, aside, details, figcaption, figure, footer,header,
+   hgroup, menu, nav, section { display: block; }
+   body {background-color: #F5F5F5;
+	font-family: "Brush Script MT", "Brush Script MT", Cursive;
+	color: #2F4F4F;
+	}
+  </style>
+<script>
+
+let tags = ["#carporn",
+"#sexylingerie",
+"#sexygirsls",
+"#sexyactress",
+"#onlyfans",
+"#babes",
+"#stockings",
+"#sexybabes",
+"#melons",
+"#sexeducation",
+"#sexed",
+"#hottestgirls",
+"#wet",
+"#sexyphoto",
+"#hotgirl",
+"#peachy",
+"#sexyheels",
+"#bikini",
+"#love",
+"#hot",
+"#beautiful",
+"#beauty",
+"#girl",
+"#cute",
+"#lingerie",
+"#girls",
+"#pretty",
+"#bhfyp",
+"#portrait"];
+
+
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  while (0 !== currentIndex) {
+
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+  return array;
+}
+
+let outtags = shuffle(tags)
+
+document.write('<center>Hashtags of a day:<br><br>')
+for (let i = 0; i < 9; i++) { 
+  document.write('<center>'+outtags[i] + ' <br>');
+}
+
+</script>
+
+ </head>
+ <body>
+  <br>
+  <br>
+  <br>
+  <p>by Duff &#9786;</p>
+ </body>
+</html>
