@@ -71,19 +71,43 @@ function shuffle(array) {
 
 let outtags = shuffle(tags)
 
+
+
 document.write('<center>Hashtags of a day:<br><br>')
 for (let i = 0; i < 9; i++) { 
   document.write(outtags[i] + ' <br>');
+  
 }
+
 
 </script>
 
  </head>
  <body>
-  <br>
+<br>
+<input type="text" value="" id="tagsset">
+<button id="copybutton" onClick="copytags();">Copy</button>
+<br>
+<br>
 <button onClick="window.location.reload();">Refresh</button>
   <br>
-  <br>
+  
   <p>by Duff &#9786;</p>
- </body>
+<br>
+
+<script>
+var tagstext = "";
+
+for (let i = 0; i < 9; i++) { 
+  tagstext += outtags[i]+' ' 
+}
+document.getElementById("tagsset").value = tagstext;
+function copytags() {
+  var copyText = document.getElementById("tagsset");
+  copyText.select();
+  document.execCommand("copy");
+  document.getElementById("copybutton").textContent = "Copied";
+} 
+</script>
+</body>
 </html>
