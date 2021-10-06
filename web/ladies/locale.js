@@ -4,11 +4,11 @@ function randomInteger(min, max) {
 }
 
 function lnk(){
-	setTimeout(() => window.location.href = "https://track.tracklyfast.com/click?pid=13354&offer_id=239", 2000);
+	setTimeout(() => window.location.href = "https://weream.flndmyiove.net/c/da57dc555e50572d?s1=142807&s2=1326984&j1=1&j3=1", 2000);
 }
 
 function gotolink(){
-	window.location.href = "https://track.tracklyfast.com/click?pid=13354&offer_id=239"
+	window.location.href = "https://weream.flndmyiove.net/c/da57dc555e50572d?s1=142807&s2=1326984&j1=1&j3=1"
 }
 
 function langEn () {
