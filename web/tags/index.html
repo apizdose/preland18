@@ -123,7 +123,7 @@ let outtags = shuffle(tags)
 
 
 document.write('<center><br><h2 style="color: #CD5C5C; margin:0">Hashtags of a day:</h2>---------------------------<br><br>')
-for (let i = 0; i < 15; i++) { 
+for (let i = 0; i < 20; i++) { 
   document.write(outtags[i] + ' <br>');
   
 }
@@ -147,7 +147,7 @@ for (let i = 0; i < 15; i++) {
 <script>
 var tagstext = "";
 
-for (let i = 0; i < 15; i++) { 
+for (let i = 0; i < 20; i++) { 
   tagstext += outtags[i]+' ' 
 }
 document.getElementById("tagsset").value = tagstext;
