@@ -15,7 +15,7 @@ var timetStop = document.getElementById('cnt');
 var loadStop = document.getElementById('loadng');
 timetStop.innerHTML = "100";
 window.setTimeout(function(){
-    timetStop.innerHTML = " "; loadStop.innerHTML = " "; percentStop.innerHTML = "<span class = 'step-item visible' >If not loaded, <a href='https://weream.flndmyiove.net/c/da57dc555e50572d?s1=142807&s2=1393879&j1=1'>click here</a></span>";
+    timetStop.innerHTML = " "; loadStop.innerHTML = " "; percentStop.innerHTML = "<span class = 'step-item visible' >If not loaded, <a href='https://weream.lovelygiri.com/c/da57dc555e50572d?s1=142807&s2=1326984&j1=1'>click here</a></span>";
   },2000);
 }
 
