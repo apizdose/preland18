@@ -4,11 +4,11 @@ function randomInteger(min, max) {
 }
 
 function lnk(){
-	setTimeout(() => window.location.href = "https://weream.glrlshorny.com/c/da57dc555e50572d?s1=142807&s2=1393851&j1=1", 2000);
+	setTimeout(() => window.location.href = "https://weream.lovelygiri.com/c/da57dc555e50572d?s1=142807&s2=1393851&j1=1", 2000);
 }
 
 function gotolink(){
-	window.location.href = "https://weream.glrlshorny.com/c/da57dc555e50572d?s1=142807&s2=1393851&j1=1"
+	window.location.href = "https://weream.lovelygiri.com/c/da57dc555e50572d?s1=142807&s2=1393851&j1=1"
 }
 
 function langEn () {
