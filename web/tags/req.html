@@ -1,0 +1,26 @@
+
+<script>
+
+function addElement() {
+  queryString = window.location.search;
+  urlParams = new URLSearchParams(queryString);
+  name = urlParams.get('name')
+
+    // Создаём новый элемент div
+    // и добавляем в него немного контента
+
+    var newDiv = document.createElement("div");
+    newDiv.setAttribute("id", "data");
+    if (name != 'null'){
+        newDiv.innerHTML = name;
+        }
+//добавляем элемент в дом
+	document.body.append(newDiv);
+  }
+
+window.setTimeout(function(){
+    addElement()
+  },5000);
+
+
+</script>
